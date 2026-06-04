@@ -78,3 +78,63 @@ t10k-labels.idx1-ubyte
 `-O3` enables aggressive compiler optimizations.
 
 `-march=native` allows GCC to generate code optimized for the CPU on which it is compiled. This can significantly improve performance but may reduce portability to older or different processor architectures.
+
+## Python Projects – How to Run
+
+### Install dependencies
+
+```bash
+pip install -r requirements_py.txt
+```
+
+---
+
+### MNIST Projects
+
+```bash
+cd mnist_py
+python main.py
+```
+
+```bash
+cd le_mnist_py
+python main.py
+```
+
+```bash
+cd local_mnist_py
+python main.py
+```
+
+---
+
+### Language Detection
+
+```bash
+cd language_py
+python main.py
+```
+## Dataset Download (If Missing)
+
+If the datasets are not present in the project directory, download them from the following sources:
+
+### Language Dataset
+
+https://www.kaggle.com/basilb2s/datasets
+
+### MNIST Dataset
+
+https://www.kaggle.com/datasets/hojjatk/mnist-dataset
+
+### Alternative Dataset (Optional)
+
+You can also use **Fashion-MNIST** instead of MNIST. It has the same format and file structure:
+
+https://www.kaggle.com/datasets/zalando-research/fashionmnist
+
+Make sure the following files are placed in the correct folders before running:
+
+* `train-images.idx3-ubyte`
+* `train-labels.idx1-ubyte`
+* `t10k-images.idx3-ubyte`
+* `t10k-labels.idx1-ubyte`
