@@ -79,7 +79,7 @@ t10k-labels.idx1-ubyte
 
 `-march=native` allows GCC to generate code optimized for the CPU on which it is compiled. This can significantly improve performance but may reduce portability to older or different processor architectures.
 
-## Python Projects – How to Run
+# Python Projects – How to Run
 
 ### Install dependencies
 
@@ -114,7 +114,7 @@ python main.py
 cd language_py
 python main.py
 ```
-## Dataset Download (If Missing)
+# Dataset Download (If Missing)
 
 If the datasets are not present in the project directory, download them from the following sources:
 
